@@ -2,6 +2,8 @@
 
 A simple component responsible for rendering a pagination user interface with page buttons for navigation.
 
+[GitHub Pages Demo](https://romandykyi.github.io/react-pagination-component/).
+
 ### Key Features
 
 * Previous and Next buttons.
