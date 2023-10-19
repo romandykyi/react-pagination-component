@@ -28,11 +28,11 @@ function App() {
         <form id='paginationForm'>
           <div>
             <label htmlFor='middleCount'>middleCount:</label>
-            <input id="middleCount" type="number" min="3" max="10" value={middleCount} onChange={e => setMiddleCount(clamp(e.target.value, 3, 10))} />
+            <input id="middleCount" type="number" min="1" max="10" value={middleCount} onChange={e => setMiddleCount(clamp(e.target.value, 1, 10))} />
           </div>
           <div>
             <label htmlFor='boundaryCount'>boundaryCount:</label>
-            <input id='boundaryCount' type="number" min="2" max="10" value={boundaryCount} onChange={e => setBoundaryCount(clamp(e.target.value, 2, 10))} />
+            <input id='boundaryCount' type="number" min="1" max="10" value={boundaryCount} onChange={e => setBoundaryCount(clamp(e.target.value, 1, 10))} />
           </div>
           <div>
             <label htmlFor='pageSize'>pageSize:</label>
